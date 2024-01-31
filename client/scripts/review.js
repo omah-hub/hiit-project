@@ -5,7 +5,7 @@ const msg = document.querySelector('.message');
 // const btn = document.querySelector('.submitbutton')
 const btn = document.querySelector('.but')
 
-console.log(btn)
+// console.log(btn)
 
 // btn.setAttribute('onclick', () => {console.log('CLicked')})
 
@@ -20,7 +20,7 @@ btn.addEventListener('click', (e) => {
         msg.innerText = 'All fields must be filled'
     }
     else {
-        let property = {
+        let review = {
             title: details[0].value,
             review: details[1].value,
             location: details[2].value,
