@@ -35,7 +35,7 @@ app.use(bodyParser.json())      // used to identify the body of a request
 
 app.use(
     cors({
-        origin: ["https://travel-pulse-server.onrender.com"],
+        origin: ["https://travel-pulse.onrender.com"],
         credentials: true,
     })
 )

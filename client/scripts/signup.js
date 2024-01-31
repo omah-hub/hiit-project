@@ -35,14 +35,12 @@ async function createAccount(data) {
         const response = await fetch(`${uri}/accounts/auth/signup`, {
             method: "POST",
             headers: {
-                "Content-Type": "application/json",
+                "Content-Type": "application/json", 
             },
             body: JSON.stringify(data),
-        }),
-        credentials: 'include';
+        });
+        
        
-
-
         const result = await response.json();
         if (result.error) msg.innerText = result.error
 
