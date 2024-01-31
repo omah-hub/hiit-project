@@ -39,7 +39,7 @@ async function createAccount(data) {
             },
             body: JSON.stringify(data),
         });
-
+        // credentials: 'include',
        
 
 

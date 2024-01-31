@@ -10,7 +10,7 @@ const mysql = require('mysql2/promise')
 const accountsRoutes = require('./routes/accountRoutes.js')
 // const bookRoutes = require('./routes/booksRoutes.js')
 const userRoutes = require('./routes/userRoutes.js')
-// const uuid = require('uuid')
+const uuid = require('uuid')
 
 const db = require('./config/db.js')
 const PORT = 3000
@@ -35,7 +35,7 @@ app.use(bodyParser.json())      // used to identify the body of a request
 
 app.use(
     cors({
-        origin: ["http://localhost:3000", "https://travel-pulse-server.onrender.com"],
+        origin: ["https://travel-pulse-server.onrender.com"],
         credentials: true,
     })
 )
