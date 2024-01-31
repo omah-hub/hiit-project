@@ -1,0 +1,239 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.landing-page {
+    position: relative;
+    
+    /* max-width: 100%; */
+}
+.landing-page img {
+    height: 650px;
+    /* height: fit-content; */
+    min-width: 100%;
+    position: absolute;
+    display: block;
+    top:0px;
+    left: 0px;
+    box-sizing: border-box;
+
+}
+.text {
+    position: absolute;
+    z-index: 1;
+    font-family: sofia;
+    color: black;
+    font-weight: 200px;
+    font-size: 100px;
+
+}
+.text a {
+    color:lightsalmon;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 200px;
+    text-decoration: none;
+    margin-right: -170px;
+    border-style:groove;
+    padding: 2px 20px;
+    border: 1px solid transparent; /* Set an initial border with the same color as the background */
+    transition: border-color 0.3s ease
+}
+.text a:hover {
+    border-color:lightsalmon;
+}
+.link {
+    margin-top: -50px;
+    text-align: right;
+}
+@keyframes colorChange {
+    0% { color: #ffcccb; } /* Light red */
+    25% { color: #b3e0ff; } /* Light blue */
+    50% { color: #ccffcc; } /* Light green */
+    75% { color: #ffd700; } /* Gold */
+    100% { color: #ffb6c1; } /* Light pink */
+  }
+  
+  p {
+    animation: colorChange 10s infinite; /* Change colors every 10 seconds, infinitely */
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .text button {
+    padding: 10px 20px;
+    /* margin-left: 90%; */
+  }
+  .text #button {
+    margin-top: -180px;
+    margin-left: 80%;
+  }
+
+/* Define the keyframes for the animation */
+@keyframes scaleAndColorChange {
+    0% {
+      transform: scale(1); /* Initial scale */
+      background-color: #ffcccb; /* Initial background color */
+    }
+    25% {
+      transform: scale(1.2); /* Slightly larger scale */
+      background-color: #b3e0ff; /* New background color */
+    }
+    50% {
+        transform: scale(1.2); /* Slightly larger scale */
+        background-color: #ccffcc;
+    }
+    75% {
+        transform: scale(1.2); /* Slightly larger scale */
+        background-color: #ffd700;
+    }
+    100% {
+      transform: scale(1); /* Return to the original scale */
+      background-color: #ffb6c1; /* Return to the original background color */
+    }
+  }
+  
+  /* Apply the animation to the button */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    animation: scaleAndColorChange 1s infinite;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition for a better user experience */
+  }
+  
+  
+  button:hover {
+    background-color: #2ecc71;
+    animation-play-state: paused; /* Pause the animation on hover */
+  }
+
+  /* real code */
+  /* @media only screen and (max-width: 375px) {
+    body {
+        padding: 0px;
+        width:;
+    }
+    img {
+        width:100%;
+      
+    }
+    p {
+        margin-top: -20px;
+        font-size: 60px;
+    }
+    button {
+        width: 150px;
+        margin-left: -100px;
+        margin-top: 0px;
+    }
+    .link a {
+        margin-right: -0px;
+        
+    }
+   #button {
+    
+    padding-top: 30px;
+   }
+        
+    
+}
+@media screen and (max-width: 1074px) {
+    .link {
+        margin-top: -50px;
+        margin-left: 600px;
+        text-align: center;
+    } 
+    button {
+        margin-left: -100px;
+    }
+    p {
+        flex-wrap: nowrap;
+        font-size: 80px;
+    }
+   
+}
+
+@media screen and (max-width: 881px) {
+    .landing-page {
+        width: 881px;
+        margin: 0px;
+    }
+    .link a {
+        margin-left: -40%;
+    }
+    img {
+        max-width: 100%;
+        margin: 0px;
+       
+    }
+    
+
+}
+
+@media screen and (max-width: 1000px) {
+    .text a {
+        font-size: 25px;
+        margin-right: -100px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .text {
+        font-size: 50px;
+    }
+    .landing-page img {
+        height: 400px;
+    }
+    .text a {
+        font-size: 20px;
+        margin-right: 0;
+    }
+} */
+
+/* Media query for screens with a maximum width of 1200 pixels (medium-sized screens) */
+/* @media only screen and (max-width: 1200px) {
+    .text {
+        font-size: 80px;
+    }
+
+    .text a {
+        font-size: 25px;
+        margin-right: -120px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .landing-page img {
+        height: 500px;
+    }
+    .text a {
+        font-size: 25px;
+        margin-right: -100px;
+    }
+} */
+
+@media only screen and (max-width: 787px) {
+    img {
+        max-height: 1400px;
+        max-width:20px;
+    }
+    .link a {
+        background-color: red;
+        align-items: left;
+    }
+    button {
+        width: 150px;
+        justify-content: left;
+        
+    }
+    #button {
+        margin-bottom: -60%;
+        background-color: blue;
+    }
+    p{
+        font-size: 30px
+    }
+}

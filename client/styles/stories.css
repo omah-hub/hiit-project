@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+}
+/* .sec1 {
+    background-color: blue;
+    padding-bottom: 4%;
+} */
+.background {
+    display: flex;
+    /* justify-content: space-between; Adjust alignment as needed */
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    /* padding: 20px */
+    
+}
+.background img {
+    flex: 0 0 calc(33.33% - 0px); /* Adjust width and margin as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    
+}
+.sec1-background {
+    position: relative;
+}
+.content {
+    position: absolute;
+    margin-top: -65%;
+    margin-left: 20%;
+    z-index: 1;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+.navbar a {
+    text-decoration: none;
+    /* color: #FFF; */
+    
+}
+.nav-left img {
+    width: 80px;
+    height: 70px;
+    margin-left: 50px;
+}
+.nav-right img {
+    width: 28px;
+    height: 28px;
+    
+}
+.nav-left {
+    padding-right: 60%; 
+}
+
+.nav-right {
+    padding-left: 30%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: -4%;
+}
+.nav-right a {
+    white-space: nowrap;
+    color: #FFF;
+}
+.nav-center a {
+    color: #fff;
+    
+}
+
+.nav-center {
+    margin-top: 2%;
+    display: flex;
+    align-items: flex-start;
+    gap: 72px;
+    
+}
+.content h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: -20;
+    margin-top: 100px;
+}
+.explore {
+    display: flex;
+    margin-bottom: 10%;
+}
+.explore button {
+    width: 150px;
+    border-radius: 5%;
+    padding: 0px 5px ;
+    margin-left: auto;
+    color: blue;
+}
+.sec2 {
+    margin: 0% 10%;
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-gap: 20px; /* Adjust the gap size as needed */
+    /* padding: 10px; */
+}
+.countries {
+    width: 100%; /* Take up 100% width of the column */
+    overflow: hidden;
+}
+.countries img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+.explore pre {
+    color: #404040;
+    font-family: Urbanist;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+}
+.search h3 {
+    color: #000;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#text1 {
+    color: #5B5B5B;
+    font-family: Urbanist;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#text2 {
+    color: #000;
+    font-family: Urbanist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#text3 {
+    color: #000;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+footer {
+    background-color: blue;
+    justify-content: center;
+    margin-bottom: -23px;
+}
+.footer {
+    margin-left: 45%;
+}
+.footer h5 {
+    margin-left: -40px;
+    margin-top: -10px;
+}
