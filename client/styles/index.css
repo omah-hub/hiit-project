@@ -4,13 +4,13 @@ body {
     
 }
 .landing-page {
-    position: relative;
+    /* position: relative; */
     
     /* max-width: 100%; */
 }
-.landing-page img {
+/* .landing-page img {
     height: 650px;
-    /* height: fit-content; */
+    
     min-width: 100%;
     position: absolute;
     display: block;
@@ -18,6 +18,13 @@ body {
     left: 0px;
     box-sizing: border-box;
 
+} */
+.landing-page {
+    background-image: url('../images/travel\ back.avif'); /* Replace 'your-image.jpg' with your actual image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 .text {
     position: absolute;
@@ -29,12 +36,14 @@ body {
 
 }
 .text a {
-    color:lightsalmon;
+    color: #000;
+    background-color: royalblue;
     font-family: poppins;
     font-size: 30px;
-    font-weight: 200px;
+    font-weight: 800px;
     text-decoration: none;
-    margin-right: -170px;
+    margin-right: 20px;
+    /* margin-right: -170px; */
     border-style:groove;
     padding: 2px 20px;
     border: 1px solid transparent; /* Set an initial border with the same color as the background */
