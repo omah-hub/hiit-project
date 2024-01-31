@@ -35,7 +35,7 @@ app.use(bodyParser.json())      // used to identify the body of a request
 
 app.use(
     cors({
-        origin: ["http://localhost:3000"],
+        origin: ["http://localhost:3000", "https://travel-pulse-server.onrender.com"],
         credentials: true,
     })
 )
@@ -46,6 +46,35 @@ app.use(
 app.use('/accounts', accountsRoutes)
 // app.use('/books', bookRoutes)
 app.use('/user', userRoutes)
+
+app.post('/review', async (req, res) => {
+  const { title, review, location, date} = req.body
+  const id = uuid.v4()
+  try {
+    if (!title) throw Error('Title is required')
+    if (!review) throw Error('Review is required')
+    if (!location) throw Error('location is required')
+    if (!date) throw Error('Date is required')
+
+  const sql = `INSERT INTO review (id, title, review, location, date) VALUES ("${id}", "${title}", "${review}", "${location}", "${date}";)`
+  await db.execute(sql)
+
+  let response = {
+    statusCode: 200,
+    message: 'review added successfully',
+  }
+
+  res.status(200).json(response)
+} catch (error) {
+  const response = {
+    message: error.message,
+    statusCode: 400
+  }
+  res.status(400).json(response)
+}
+})
+
+
 
 const server = http.createServer(app) 
 

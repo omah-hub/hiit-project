@@ -1,5 +1,7 @@
-const uri = 'http://localhost:3000'     // the server url
+// const uri = 'http://localhost:3000'     // the server url
 // http://192.168.56.1:5501
+// https://travel-pulse-server.onrender.com
+const uri = 'https://travel-pulse-server.onrender.com'
 const details = document.querySelectorAll('input')
 
 const btn = document.querySelector('.submit')

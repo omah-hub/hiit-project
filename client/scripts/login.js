@@ -1,5 +1,6 @@
 // const uri = 'https://hiit-blog-api.onrender.com'     // the server url
-const uri = 'http://localhost:3000'
+// const uri = 'http://localhost:3000'
+const uri = 'https://travel-pulse-server.onrender.com'
 const details = document.querySelectorAll('input')
 
 const btn = document.querySelector('.submit')

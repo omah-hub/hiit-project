@@ -1,0 +1,152 @@
+section {
+   
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    
+}
+.nav-left img {
+    width: 80px;
+    height: 70px;
+    background-color: #000;
+}
+.nav-right img {
+    width: 28px;
+    height: 28px;
+       
+}
+.nav-left {
+    margin-right: 30%;
+}
+
+.nav-right {
+/* margin-right: -40%; */
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: -2%;
+}
+.nav-center{
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+.nav-center {
+    /* margin: 20px */
+    display: flex;
+    align-items: flex-start;
+    gap: 72px;
+    
+}
+#text4 {
+    color: #000;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.material-symbols-outlined {
+    position: absolute;
+    margin-left: -30px;
+    margin-bottom: -20px;
+}
+#search-button {
+    width: 812px;
+    height: 38px;
+    margin-top: -10px;
+    border-radius: 10px;
+    
+}
+.reviews {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.reviews button {
+    margin-left: auto;
+    width: 150px;
+    height:40px;
+}
+#text6 {
+    color: #000;
+    font-family: Urbanist;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#text5 {
+    color: #000;
+    font-family: Urbanist;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.images {
+    margin-left: 5%;
+    
+}
+.image {
+    display: flex;
+    margin-bottom: 5%;
+    
+}
+
+.text7 {
+    margin-left: 10%;
+}
+img {
+    border-radius: 5px;
+}
+#text1 {
+    color: #000;
+    font-family: Urbanist;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#text2 {
+    color: #000;
+    font-family: Urbanist;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#text3 {
+    color: #000;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+footer {
+    background-color: blue;
+    justify-content: center;
+    margin-bottom: -23px;
+    
+}
+.footer {
+    margin-left: 45%;
+}
+.footer h5 {
+    margin-left: -40px;
+    margin-top: -10px;
+}

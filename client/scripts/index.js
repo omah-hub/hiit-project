@@ -1,5 +1,6 @@
 // const uri = 'http://127.0.0.1:5000'
-const uri = 'http://localhost:3000'
+// const uri = 'http://localhost:3000'
+const uri = 'https://travel-pulse-server.onrender.com'
 const token = window.localStorage.getItem('token')
 // console.log('Token:', token);
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Review</title>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/write-review.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+    <section>
+        <div class="navbar">
+
+            <div class=" nav-left">
+                <img src="./images/image_1__5_-removebg-preview 1.png">
+            </div>
+            <div class="nav-center">
+                <a href="destination.html">Destination</a>
+                <a href="stories.html">Stories</a>
+                <a href="">Reviews</a>
+            </div>
+            <div class="nav-right">
+                <img src="./images/akar-icons_search.svg">
+                <!-- <a href="">Sign up</a>
+                <a href="" id="login-button">login</a> -->
+                <header>
+                    <button></button>
+                </header>
+            </div>
+        </div>
+        <pre id="text4">Share your Travel Experience in 
+            form of a story</pre>
+        <div class="search">
+            <input id="search-button" type="text" placeholder="What would you like to review?">
+            <div>
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+        </div>
+        <div class="reviews">
+            <div>
+                <pre id="text5">Top places with reviews</pre>
+                <pre id="text6">Travelers want to see more reviews of these places.</pre>
+            </div>
+            <button>Write New Review</button>
+        </div>
+        <form>
+            <div class="form-label">
+                <label for="title">Title of your review</label></br>
+                <input type="text" name="title">
+            </div>
+            <div>
+                <label for="">Your review</label></br>
+                <textarea name="review"></textarea>
+            </div>
+            <div>
+                <label>Location </label></br>
+                <input type="text" name="location">
+            </div>
+            <div>
+                <label for="">When did you travel?</label><br>
+                <input type="date" name="date">
+            </div>
+            <p class="message"></p>
+            <button class="but">Submit</button>
+        </form>
+    </section>
+    <script type="module" src="./scripts/header.js"></script>
+    <script type="module" src="./scripts/review.js"></script>
+</body>
+</html>
