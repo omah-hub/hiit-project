@@ -1,5 +1,5 @@
 const uri = 'https://travel-pulse-server.onrender.com'
-const details = document.querySelectorAll('input, textarea');
+const details = document.querySelectorAll('input, textarea, input[type="date"]');
 
 const msg = document.querySelector('.message');
 // const btn = document.querySelector('.submitbutton')
